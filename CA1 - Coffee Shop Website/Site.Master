@@ -51,6 +51,9 @@
     <form id="form1" runat="server">
         <div class="all-content">
 
+            <!-- menu icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+
             <!-- navigation bar - Bootstrap -->
             <nav class="navbar navbar-expand-lg" id="navbar">
                 <div class="container-fluid">
@@ -80,6 +83,13 @@
                           </li>
                     </ul>
 
+                    <!-- search and cart icons -->
+                    <div class="header-icon">
+                        <i class='bx bx-cart' ></i>
+                        <i class='bx bx-search-alt-2' id="search-icon"></i>
+                    </div>
+
+                    <!-- search bar -->
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-outline-success" type="submit">Search</button>

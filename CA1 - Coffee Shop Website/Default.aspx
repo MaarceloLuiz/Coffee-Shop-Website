@@ -15,9 +15,9 @@
             <br> menu of espresso-based drinks, brewed coffees, and signature beverages 
             <br>crafted by skilled baristas.
             </p>
-        <button id="btn">Order Now</button>
+        <%--<button id="btn">Order Now</button>--%>
         <br />
-        <!-- <asp:Button id="btn" runat="server" Text="Order Now" /> -->
+         <asp:Button class="btn" runat="server" Text="Order Now" OnClick="Unnamed1_Click" /> 
     </div>
 </section>
 

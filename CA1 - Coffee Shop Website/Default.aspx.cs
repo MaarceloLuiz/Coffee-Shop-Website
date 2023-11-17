@@ -13,5 +13,10 @@ namespace CA1___Coffee_Shop_Website
         {
 
         }
+
+        protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("menu.aspx");
+        }
     }
 }

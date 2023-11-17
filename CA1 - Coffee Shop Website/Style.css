@@ -73,7 +73,32 @@ html::-webkit-scrollbar {
     border: 1px solid white;
 }
 
-/*home*/
+/*header icon*/
+.header-icon{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+}
+
+.header-icon .bx {
+    color: white;
+}
+
+.header-icon .bx:hover {
+    color: var(--main-color);
+}
+
+#menu-icon{
+    color: white;
+    font-size: 24px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
+}
+
+/*home (Default)*/
 #home .content {
     padding-top: 210px;
     margin-left: 50px;
@@ -89,7 +114,7 @@ html::-webkit-scrollbar {
     color: white;
 }
 
-#btn {
+/*#btn {
     width: 150px;
     height: 36px;
     margin-top: 20px;
@@ -105,6 +130,25 @@ html::-webkit-scrollbar {
     background: white;
     border-radius: 4px;
     transform: scale(1.1);
+}*/
+
+input.btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+input.btn:hover {
+    background: white;
+    border-radius: 4px;
+    transform: scale(1.1);
+    color:black;
 }
 
 /*footer*/
