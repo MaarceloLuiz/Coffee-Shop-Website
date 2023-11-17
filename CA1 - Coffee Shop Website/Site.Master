@@ -46,7 +46,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
     <!-- link to js -->
-    <script type="text/javascript" src="script.js"></script>
+    <script src="script.js"></script>
 
     <form id="form1" runat="server">
         <div class="all-content">
@@ -90,10 +90,13 @@
                     </div>
 
                     <!-- search bar -->
-                    <form class="d-flex" role="search">
+                    <%--<form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    </form>--%>
+                      <div class="search-box">
+                          <input type="search" name="" id="" placeholder="Search Here"/>
+                      </div>
                   </div>
                 </div>
             </nav>
@@ -107,6 +110,7 @@
         <!--footer section-->
         <section class="footer">
             <div class="share">
+                <br />
                 <a href="#" class="fab fa-facebook-f"></a>
                 <a href="#" class="fab fa-twitter"></a>
                 <a href="#" class="fab fa-instagram"></a>
