@@ -1,0 +1,156 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-color: #d3ad7f;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+
+.all-content {
+    /*background: black;*/
+    color: white;
+    background-image: url("assets/img/4419157.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #b2744c;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+/*navigation bar*/
+#navbar {
+    height: 13vh;
+    background: rgba(0, 0, 0, 0.3);
+    /*background-color: #b2744c;*/
+}
+
+#logo img {
+    border-radius: 10px;
+    width: 160px;
+    margin-left: 5px;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-item .nav-link {
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+/*home*/
+#home .content {
+    padding-top: 210px;
+    margin-left: 50px;
+}
+
+#home.content h3 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: white;
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+/*footer*/
+.footer {
+    background: var(--black);
+    text-align: center;
+}
+
+.footer .share {
+    : 1rem 0;
+}
+
+.footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    border: var(--border);
+    margin: .3rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.footer .share a:hover {
+    background-color: #fff;
+    color: var(--black);
+}
+
+.footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.footer .links a {
+    padding: .7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer .links a:hover {
+    background-color: #fff;
+    color: var(--black);
+}
