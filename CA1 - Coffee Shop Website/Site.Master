@@ -6,7 +6,6 @@
 <head runat="server">
     <title></title>
 
-    <link rel="stylesheet" href="Style.css" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -36,6 +35,9 @@
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <!--CSS-->
+    <link href="Style.css?Version=1" rel="stylesheet" />
 
 </head>
 <body>
@@ -101,14 +103,13 @@
                 </div>
             </nav>
 
-
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
 
         </div>
 
         <!--footer section-->
-        <section class="footer">
+        <footer class="footer">
             <div class="share">
                 <br />
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -118,13 +119,13 @@
             </div>
 
             <div class="links">
-                <a href="index.html">home</a>
-                <a href="aboutUs.html">about us</a>
-                <a href="menu.html">menu</a>
-                <a href="reviews.html">reviews</a>
-                <a href="contact.html">contact</a>
+                <a href="Default.aspx">home</a>
+                <a href="aboutUs.aspx">about us</a>
+                <a href="menu.aspx">menu</a>
+                <a href="reviews.aspx">reviews</a>
+                <a href="contact.aspx">contact</a>
             </div>
-        </section>
+        </footer>
 
     </form>
 </body>

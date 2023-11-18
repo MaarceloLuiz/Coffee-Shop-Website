@@ -185,6 +185,94 @@ input.btn:hover {
     color:black;
 }
 
+/*about us*/
+.heading {
+    padding-top: 100px;
+    margin-left: 50px;
+    color: #f7f5f2;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading span {
+    color: #b2744c;
+    text-transform: uppercase;
+}
+
+.about-us-content {
+    margin-left: 50px;
+}
+
+.about-us-content h3 {
+    color: white;
+}
+
+.about-us-content p {
+    margin-top: 10px;
+    color: white;
+}
+
+/*review*/
+.review .review-heading {
+    padding-top: 50px;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.review .review-heading span {
+    color: #b2744c;
+    text-transform: uppercase;
+}
+
+.review .review-box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .review-box-container .review-box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .review-box-container .review-box p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--black);
+    padding: 2rem 0;
+}
+
+.review .review-box-container .review-box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .review-box-container .review-box h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.review .review-box-container .review-box .stars i {
+    font-size: 1.0rem;
+    color: var(--black);
+}
+
+.review .review-box-container .review-box .quote {
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+}
+
 /*footer*/
 .footer {
     background: var(--black);
@@ -192,7 +280,7 @@ input.btn:hover {
 }
 
 .footer .share {
-    : 1rem 0;
+    padding: 1rem 0;
 }
 
 .footer .share a {
