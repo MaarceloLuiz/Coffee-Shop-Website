@@ -16,7 +16,7 @@ namespace CA1___Coffee_Shop_Website
 
         protected void LearnMoreButton(object sender, EventArgs e)
         {
-            
+            Response.Redirect("aboutUs.aspx#review");
         }
     }
 }
