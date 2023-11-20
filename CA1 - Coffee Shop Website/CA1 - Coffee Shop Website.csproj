@@ -82,6 +82,7 @@
     <Content Include="contact.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="faq.aspx" />
+    <Content Include="faqJS.js" />
     <Content Include="menu.aspx" />
     <Content Include="reviews.aspx" />
     <Content Include="script.js" />

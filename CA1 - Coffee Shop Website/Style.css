@@ -103,7 +103,7 @@ html::-webkit-scrollbar {
 }
 
 /*search box*/
-.search-box{
+.search-box {
     position: absolute;
     top: -100%;
     left: 50%;
@@ -134,8 +134,12 @@ html::-webkit-scrollbar {
 }
 
 /*home (Default)*/
-#home .content {
-    padding-top: 210px;
+
+/*It was decided to comment this section because the class names was changed
+    in order to the style to be exaclty the same as the other pages in the website*/
+
+/*#home .content {
+    padding-top: 10px;
     margin-left: 50px;
 }
 
@@ -147,9 +151,9 @@ html::-webkit-scrollbar {
 #home .content p {
     margin-top: 10px;
     color: white;
-}
+}*/
 
-/*#btn {
+#btn {
     width: 150px;
     height: 36px;
     margin-top: 20px;
@@ -165,7 +169,7 @@ html::-webkit-scrollbar {
     background: white;
     border-radius: 4px;
     transform: scale(1.1);
-}*/
+}
 
 input.btn {
     width: 150px;
@@ -272,6 +276,92 @@ input.btn:hover {
     height: 7rem;
     width: 7rem;
     object-fit: cover;
+}
+
+/*faq*/
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 5px;
+}
+
+.faq-answer.show {
+    display: block;
+}
+
+/*contact*/
+.contact .heading {
+    color: #b2744c;
+}
+
+.contact .heading span {
+    color: black;
+}
+
+.contact .contact-row {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact .contact-row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .contact-row form {
+    flex: 1 1 45rem;
+}
+
+.contact .contact-row form h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.contact .contact-row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1rem solid rgba(255,255,255,.3)
+}
+
+.contact .contact-row form .inputBox span {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.contact .contact-row form .inputBox input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-transform: none;
+    background: none;
+}
+
+.contact .contact-row form .btn {
+    text-align: center;
 }
 
 /*footer*/
