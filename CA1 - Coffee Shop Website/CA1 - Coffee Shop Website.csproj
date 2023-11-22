@@ -71,6 +71,7 @@
     <Content Include="assets\css\cdn.jsdelivr.net_npm_bootstrap%405.2.3_dist_css_bootstrap.min.css" />
     <Content Include="assets\img\4419157.jpg" />
     <Content Include="assets\img\Coffee-shop-logo-design-template-on-transparent-background-PNG.png" />
+    <Content Include="assets\img\coffeepic.jpg" />
     <Content Include="assets\img\double-quotes.png" />
     <Content Include="assets\img\person1.jpg" />
     <Content Include="assets\img\person2.jpg" />
@@ -80,6 +81,7 @@
     <Content Include="assets\img\staff3.jpg" />
     <Content Include="assets\js\code.jquery.com_jquery-3.7.0.min.js" />
     <Content Include="contact.aspx" />
+    <Content Include="contactStyle.css" />
     <Content Include="Default.aspx" />
     <Content Include="faq.aspx" />
     <Content Include="faqJS.js" />

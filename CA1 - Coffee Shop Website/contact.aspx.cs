@@ -13,5 +13,15 @@ namespace CA1___Coffee_Shop_Website
         {
 
         }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

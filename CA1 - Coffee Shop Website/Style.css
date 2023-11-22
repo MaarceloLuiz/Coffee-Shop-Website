@@ -308,61 +308,12 @@ input.btn:hover {
     display: block;
 }
 
-/*contact*/
-.contact .heading {
-    color: #b2744c;
-}
+/*contact
 
-.contact .heading span {
-    color: black;
-}
+    new style sheet created to work on the contact section
 
-.contact .contact-row {
-    display: flex;
-    background-color: white;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
+finished contact section*/
 
-.contact .contact-row .map {
-    flex: 1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-}
-
-.contact .contact-row form {
-    flex: 1 1 45rem;
-}
-
-.contact .contact-row form h3 {
-    text-transform: uppercase;
-    font-size: 2rem;
-}
-
-.contact .contact-row form .inputBox {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1rem solid rgba(255,255,255,.3)
-}
-
-.contact .contact-row form .inputBox span {
-    font-size: 2rem;
-    padding-left: 1rem;
-}
-
-.contact .contact-row form .inputBox input {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.1rem;
-    text-transform: none;
-    background: none;
-}
-
-.contact .contact-row form .btn {
-    text-align: center;
-}
 
 /*footer*/
 .footer {
