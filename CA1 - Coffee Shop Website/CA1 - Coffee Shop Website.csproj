@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutUs.aspx" />
-    <Content Include="assets\css\cdn.jsdelivr.net_npm_bootstrap%405.2.3_dist_css_bootstrap.min.css" />
     <Content Include="assets\img\4419157.jpg" />
     <Content Include="assets\img\Coffee-shop-logo-design-template-on-transparent-background-PNG.png" />
     <Content Include="assets\img\coffeepic.jpg" />
