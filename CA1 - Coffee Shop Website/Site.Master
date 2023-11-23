@@ -85,7 +85,8 @@
 
                 <!-- search and cart icons -->
                 <div class="header-icon">
-                    <i class='bx bx-cart' ></i>
+                    <%--<i class='bx bx-cart' ></i>--%>
+                    <asp:ImageButton ID="cartImgBtn" runat="server" ImageUrl="~/assets/img/cart-regular-24.png" Height="25px" Width="25px" OnClick="cartImgBtn_Click"/>
                     <i class='bx bx-search-alt-2' id="search-icon"></i>
                 </div>
 

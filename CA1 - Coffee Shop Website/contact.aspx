@@ -36,7 +36,7 @@
                     <input type="email" class="field" placeholder="Email">
                     <input type="text" class="field" placeholder="Your Phone Number">
                     <textarea class ="field" placeholder="Message"></textarea>
-                    <asp:Button class="contact-btn" ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+                    <asp:Button class="contact-btn" ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
                 </div>
             </div>
         </div>

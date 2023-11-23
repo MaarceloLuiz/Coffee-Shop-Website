@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="aboutUs.aspx" />
     <Content Include="assets\img\4419157.jpg" />
+    <Content Include="assets\img\cart-regular-24.png" />
     <Content Include="assets\img\Coffee-shop-logo-design-template-on-transparent-background-PNG.png" />
     <Content Include="assets\img\coffeepic.jpg" />
     <Content Include="assets\img\double-quotes.png" />
@@ -89,6 +90,7 @@
     <Content Include="script.js" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
+    <Content Include="yourCart.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aboutUs.aspx.cs">
@@ -140,6 +142,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="yourCart.aspx.cs">
+      <DependentUpon>yourCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yourCart.aspx.designer.cs">
+      <DependentUpon>yourCart.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

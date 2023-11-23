@@ -7,16 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace CA1___Coffee_Shop_Website
 {
-    public partial class Site : System.Web.UI.MasterPage
+    public partial class yourCart : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void cartImgBtn_Click(object sender, ImageClickEventArgs e)
-        {
-            Response.Redirect("yourCart.aspx");
         }
     }
 }
