@@ -70,6 +70,26 @@
                 <div class="faq-answer">Yes, we are pet-friendly, we also offer free treats for the pets!</div>
               </li>
 
+              <li class="faq-item">
+                <div class="faq-question">Can I book your space for private events or meetings</div>
+                <div class="faq-answer">Certainly! We offer our space for private events and meetings. Contact us for more information and to make reservations.</div>
+              </li>
+
+              <li class="faq-item">
+                <div class="faq-question">Are your pastries and snacks made in-house?</div>
+                <div class="faq-answer">Our pastries are home-made! And snacks are sourced from local bakeries known for their quality.</div>
+              </li>
+
+              <li class="faq-item">
+                <div class="faq-question">Do you offer decaffeinated coffee options?</div>
+                <div class="faq-answer">Absolutely! Our menu includes decaffeinated versions of many of our popular coffee drinks. Feel free to ask your barista for the decaf option.</div>
+              </li>
+
+              <li class="faq-item">
+                <div class="faq-question">Are there gluten-free options on your menu?</div>
+                <div class="faq-answer">Yes, we offer a selection of gluten-free pastries and snacks to accommodate different dietary preferences.</div>
+              </li>
+
             </ul>
           </div>
     </section>
