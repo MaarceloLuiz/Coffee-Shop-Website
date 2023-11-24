@@ -70,6 +70,12 @@
     <Content Include="aboutUs.aspx" />
     <Content Include="assets\img\4419157.jpg" />
     <Content Include="assets\img\cart-regular-24.png" />
+    <Content Include="assets\img\coffee products\beans.png" />
+    <Content Include="assets\img\coffee products\coffee bag png.png" />
+    <Content Include="assets\img\coffee products\coffee-cup.png" />
+    <Content Include="assets\img\coffee products\coffee-grinder.png" />
+    <Content Include="assets\img\coffee products\french-press.png" />
+    <Content Include="assets\img\coffee products\portafilter.png" />
     <Content Include="assets\img\Coffee-shop-logo-design-template-on-transparent-background-PNG.png" />
     <Content Include="assets\img\coffeepic.jpg" />
     <Content Include="assets\img\double-quotes.png" />
@@ -86,6 +92,7 @@
     <Content Include="faq.aspx" />
     <Content Include="faqJS.js" />
     <Content Include="menu.aspx" />
+    <Content Include="productsStyle.css" />
     <Content Include="reviews.aspx" />
     <Content Include="script.js" />
     <Content Include="Style.css" />
