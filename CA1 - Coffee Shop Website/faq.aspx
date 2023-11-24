@@ -33,7 +33,7 @@
     <!--jquery used on the faq questions-->
     <section class="contact">
         <div class="faq-container">
-            <h1 class="heading" style="text-align: center; padding-top: 10px;"><span>FA</span>Q</h1>
+            <h1 class="heading" style="text-align: center; padding-top: 10px; color:#424242;"><span>FA</span>Q</h1>
             <ul class="faq-list">
 
               <li class="faq-item">

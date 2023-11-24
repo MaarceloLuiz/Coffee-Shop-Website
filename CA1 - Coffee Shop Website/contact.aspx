@@ -25,7 +25,7 @@
 
     <!--contact section-->
     <section class="contact" id="contact">
-        <h1 class="heading" style="text-align: center; padding-top: 10px;"><span>CONTACT</span> US</h1>
+        <h1 class="heading" style="text-align: center; padding-top: 10px; color:#424242;"><span>CONTACT</span> US</h1>
 
         <div class="container">
             <div class="contact-box">
