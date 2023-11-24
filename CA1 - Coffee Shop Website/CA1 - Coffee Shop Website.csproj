@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutUs.aspx" />
+    <Content Include="App_Data\CoffeeShopDB.mdf" />
+    <Content Include="App_Data\CoffeeShopDB_log.ldf">
+      <DependentUpon>CoffeeShopDB.mdf</DependentUpon>
+    </Content>
     <Content Include="assets\img\4419157.jpg" />
     <Content Include="assets\img\cart-regular-24.png" />
     <Content Include="assets\img\coffee products\beans.png" />
