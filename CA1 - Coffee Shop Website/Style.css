@@ -221,7 +221,8 @@ input.btn:hover {
 .heading {
     padding-top: 15rem;
     margin-left: 50px;
-    color: #f7f5f2;
+    /*color: #f7f5f2;*/
+    color: black;
     text-transform: uppercase;
     padding-bottom: 3.5rem;
     font-size: 3rem;

@@ -10,10 +10,16 @@
         <h1 class="heading"> <span>Check our</span> FAQ </h1>
         <div class="about-us-row">
             <div class="about-us-content">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    <br>aliquid mollitia et perspiciatis vel ut quam itaque incidunt?
-                    <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, minima.
-                </p>
+                <h3>Have questions? We've got answers!</h3>
+                    <p>Explore our FAQ page to find solutions to commonly asked 
+                    <br> queries about our products, services, and more.
+                    <br> Whether you're curious about our menu offerings, policies or 
+                    <br> simply want to get to know us better, this is the go-to place for information.
+                    <br> Can't find what you're looking for?
+                    <br> Feel free to reach out, and our team will be happy to assist you. 
+                    <br> Let's make your experience with us as smooth and enjoyable as possible. 
+                    <br> Dive into our FAQs and discover everything you need to know!
+                    </p>
             </div>
         </div>
 
