@@ -32,10 +32,10 @@
                 <div class="left"></div>
                 <div class="right">
                     <h2>Any Questions?</h2>
-                    <input type="text" class="field" placeholder="Your Name">
-                    <input type="email" class="field" placeholder="Email">
-                    <input type="text" class="field" placeholder="Your Phone Number">
-                    <textarea class ="field" placeholder="Message"></textarea>
+                    <input type="text" class="field" placeholder="Your Name" name="name">
+                    <input type="email" class="field" placeholder="Email" name="email">
+                    <input type="text" class="field" placeholder="Your Phone Number" name="phoneNumber">
+                    <textarea class ="field" placeholder="Message" name="message"></textarea>
                     <asp:Button class="contact-btn" ID="Button1" runat="server" Text="Submit" OnClick="Button1_Click" />
                 </div>
             </div>
