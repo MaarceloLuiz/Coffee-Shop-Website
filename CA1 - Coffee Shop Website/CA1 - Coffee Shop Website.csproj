@@ -89,7 +89,11 @@
     <Content Include="assets\img\staff1.jpg" />
     <Content Include="assets\img\staff2.jpg" />
     <Content Include="assets\img\staff3.jpg" />
+    <Content Include="assets\img\x-regular-24 black.png" />
+    <Content Include="assets\img\x-regular-24.png" />
     <Content Include="assets\js\code.jquery.com_jquery-3.7.0.min.js" />
+    <Content Include="cartJS.js" />
+    <Content Include="cartStyle.css" />
     <Content Include="contact.aspx" />
     <Content Include="contactStyle.css" />
     <Content Include="Default.aspx" />

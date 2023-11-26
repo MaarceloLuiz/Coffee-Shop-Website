@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
     <link href="productsStyle.css" rel="stylesheet" />
+    <script src="cartJS.js"></script>
 
 </asp:Content>
 
@@ -40,74 +41,74 @@
             <!--beans-->
             <div class="box">
                 <img src="assets/img/coffee products/coffee bag png.png" alt="" />
-                <h3>Brazilian Espresso</h3>
+                <h3 id="Brazilian-Espresso">Brazilian Espresso</h3>
                 <div class="content">
-                    <span>€20</span>
+                    <span>€<span id="Brazilian-Espresso-Price">20</span></span>
                     <asp:Button class="products-btn" ID="AddToCartBrazillianBeans" runat="server" Text="Add To Cart" OnClick="AddToCartBrazillianBeans_Click" />
                 </div>
             </div>
 
             <div class="box">
                 <img src="assets/img/coffee products/coffee bag png.png" alt="" />
-                <h3>Italian Espresso</h3>
+                <h3 id="Italian-Espresso">Italian Espresso</h3>
                 <div class="content">
-                    <span>€20</span>
-                    <asp:Button class="products-btn" ID="AddToCartItalianBeans" runat="server" Text="Add To Cart" />
+                    <span id="Italian-Espresso-Price">€20</span>
+                    <asp:Button class="products-btn" ID="AddToCartItalianBeans" runat="server" Text="Add To Cart" OnClick="AddToCartItalianBeans_Click" />
                 </div>
             </div>
 
             <div class="box">
                 <img src="assets/img/coffee products/coffee bag png.png" alt="" />
-                <h3>Columbian Espresso</h3>
+                <h3 id="Columbian-Espresso">Columbian Espresso</h3>
                 <div class="content">
-                    <span>€20</span>
-                    <asp:Button class="products-btn" ID="AddToCartColumbianBeans" runat="server" Text="Add To Cart" />
+                    <span id="Columbian-Espresso-Price">€20</span>
+                    <asp:Button class="products-btn" ID="AddToCartColumbianBeans" runat="server" Text="Add To Cart" OnClick="AddToCartColumbianBeans_Click" />
                 </div>
             </div>
 
             <div class="box">
                 <img src="assets/img/coffee products/coffee bag png.png" alt="" />
-                <h3>Spanish Espresso</h3>
+                <h3 id="Spanish-Espresso">Spanish Espresso</h3>
                 <div class="content">
-                    <span>€20</span>
-                    <asp:Button class="products-btn" ID="AddToCartSpanishBeans" runat="server" Text="Add To Cart" />
+                    <span id="Spanish-Espresso-Price">€20</span>
+                    <asp:Button class="products-btn" ID="AddToCartSpanishBeans" runat="server" Text="Add To Cart" OnClick="AddToCartSpanishBeans_Click" />
                 </div>
             </div>
 
             <!--accessories-->
             <div class="box">
                 <img src="assets/img/coffee products/coffee-cup.png" alt="" />
-                <h3>Coffee Cup</h3>
+                <h3 id="Coffee-Cup">Coffee Cup</h3>
                 <div class="content">
-                    <span>€10</span>
-                    <asp:Button class="products-btn" ID="AddToCartCoffeeCup" runat="server" Text="Add To Cart" />
+                    <span id="Coffee-Cup-Price">€10</span>
+                    <asp:Button class="products-btn" ID="AddToCartCoffeeCup" runat="server" Text="Add To Cart" OnClick="AddToCartCoffeeCup_Click" />
                 </div>
             </div>
 
             <div class="box">
                 <img src="assets/img/coffee products/coffee-grinder.png" alt="" />
-                <h3>Coffee Grinder</h3>
+                <h3 id="Coffee-Grinder">Coffee Grinder</h3>
                 <div class="content">
-                    <span>€30</span>
-                    <asp:Button class="products-btn" ID="AddToCartCoffeeGrinder" runat="server" Text="Add To Cart" />
+                    <span id="Coffee-Grinder-Price">€30</span>
+                    <asp:Button class="products-btn" ID="AddToCartCoffeeGrinder" runat="server" Text="Add To Cart" OnClick="AddToCartCoffeeGrinder_Click" />
                 </div>
             </div>
 
             <div class="box">
                 <img src="assets/img/coffee products/french-press.png" alt="" />
-                <h3>French Press</h3>
+                <h3 id="French-Press">French Press</h3>
                 <div class="content">
-                    <span>€15</span>
-                    <asp:Button class="products-btn" ID="AddToCartFrenchPress" runat="server" Text="Add To Cart" />
+                    <span id="French-Press-Price">€15</span>
+                    <asp:Button class="products-btn" ID="AddToCartFrenchPress" runat="server" Text="Add To Cart" OnClick="AddToCartFrenchPress_Click" />
                 </div>
             </div>
 
             <div class="box">
                 <img src="assets/img/coffee products/portafilter.png" alt="" />
-                <h3>Portafilters</h3>
+                <h3 id="Portafilters">Portafilters</h3>
                 <div class="content">
-                    <span>€40</span>
-                    <asp:Button class="products-btn" ID="AddToCartPortafilter" runat="server" Text="Add To Cart" />
+                    <span id="Portafilters-Price">€40</span>
+                    <asp:Button class="products-btn" ID="AddToCartPortafilter" runat="server" Text="Add To Cart" OnClick="AddToCartPortafilter_Click" />
                 </div>
             </div>
 
