@@ -45,7 +45,14 @@
                     <div class="col col-1"><%# Eval("Id") %></div>
                     <div class="col col-2"><%# Eval("ProductName") %></div>
                     <div class="col col-3"><%# Eval("ProductPrice") %></div>
-                    <div class="col col-4"> <asp:ImageButton EnableViewState="true" ID="xImgBtn" runat="server" ImageUrl="~/assets/img/x-regular-24 black.png" Height="25px" Width="25px" OnClick="xImgBtn_Click"/> </div>
+                    <div class="col col-4"> <%--<asp:ImageButton EnableViewState="true" ID="xImgBtn" runat="server" ImageUrl="~/assets/img/x-regular-24 black.png" Height="25px" Width="25px" 
+                        OnClientClick="return Check();" OnCommand="xImgBtn_Click" 
+                        CommandName="Delete" CommandArgument='<%# Eval("Id") %>'/--%>
+                        <asp:ImageButton ID="btnDelete" runat="server" ImageUrl="~/assets/img/x-regular-24 black.png" Height="25px" Width="25px" 
+                            OnClientClick="return Check();"
+                            OnCommand="btnDelete_Command" 
+                            CommandName="Delete" 
+                            CommandArgument='<%# Eval("Id") %>' /> </div>
                 </li>
             </ItemTemplate>
         </asp:Repeater>

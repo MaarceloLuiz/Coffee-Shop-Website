@@ -15,6 +15,14 @@ namespace CA1___Coffee_Shop_Website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                ShowRep();
+            }
+        }
+
+        void ShowRep()
+        {
             Rep.DataSource = GetData();
             Rep.DataBind();
         }
@@ -41,8 +49,26 @@ namespace CA1___Coffee_Shop_Website
 
         protected void xImgBtn_Click(object sender, ImageClickEventArgs e)
         {
-            if(IsPostBack)
-                Response.Redirect("yourCart.aspx");
+            
+        }
+
+        protected void btnDelete_Command(object sender, CommandEventArgs e)
+        {
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["DBCon"].ConnectionString);
+
+            string id = e.CommandArgument.ToString();
+            string delete = "DELETE FROM CartItems WHERE Id = @Id";
+
+            SqlCommand cmd = new SqlCommand(delete, conn);
+            cmd.Parameters.AddWithValue("@Id", id);
+
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            conn.Close();
+
+            ShowRep();
+
+            Response.Write("<script LANGUAGE='JavaScript' >alert('Item deleted!')</script>");
         }
     }
 }
