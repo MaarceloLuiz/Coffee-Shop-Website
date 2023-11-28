@@ -26,7 +26,7 @@
                 <br> This is more than a menu; it's an invitation to explore the
                 <br> world of exceptional coffee, one sip at a time!
                 </p>
-                <asp:Button class="btn" ID="Button1" runat="server" Text="Find Out More" OnClick="Button1_Click" />
+                <asp:Button class="btn" ID="Button1" runat="server" Text="Check Your Cart" OnClick="Button1_Click" />
             </div>
         </div>
     </section>

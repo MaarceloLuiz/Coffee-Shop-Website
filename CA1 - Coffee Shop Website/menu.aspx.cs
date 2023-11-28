@@ -20,7 +20,7 @@ namespace CA1___Coffee_Shop_Website
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("menu.aspx#products");
+            Response.Redirect("yourCart.aspx#classTable");
         }
 
         void InsertData(string name, decimal price)

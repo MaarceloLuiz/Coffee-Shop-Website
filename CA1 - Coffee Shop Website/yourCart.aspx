@@ -22,7 +22,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
 
-    <div class="container">
+    <div class="container" id="classTable">
       <h1 class="heading" style="text-align: center; padding-top: 10px; color:#424242;"><span>YOUR</span> CART</h1>
       <ul class="responsive-table">
         <li class="table-header">
@@ -31,13 +31,6 @@
           <div class="col col-3">Product Price</div>
           <div class="col col-4"> </div>
         </li>
-
-        <%--<li class="table-row">
-            <div class="col col-1" data-label="Job Id">42235</div>
-            <div class="col col-2" data-label="Customer Name">John Doe</div>
-            <div class="col col-3" data-label="Amount">$350</div>
-            <div class="col col-4" data-label="Payment Status">Pending</div>
-        </li>--%>
 
         <asp:Repeater ID="Rep" runat="server" OnItemCommand="Rep_ItemCommand">
             <ItemTemplate>
@@ -56,6 +49,13 @@
                 </li>
             </ItemTemplate>
         </asp:Repeater>
+
+        <li class="table-header">
+          <div class="col col-1"></div>
+          <div class="col col-2">Total:</div>
+          <div class="col col-3"> <asp:Label ID="lblTotal" runat="server" Text=""></asp:Label> </div>
+          <div class="col col-4"></div>
+        </li>
 
       </ul>
     </div>

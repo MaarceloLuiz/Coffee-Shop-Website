@@ -39,7 +39,26 @@ namespace CA1___Coffee_Shop_Website
             dt.Load(cmd.ExecuteReader());
 
             conn.Close();
+
+            lblTotal.Text = totalPrice();
+
             return dt;
+        }
+
+        private string totalPrice()
+        {
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["DBcon"].ConnectionString);
+
+            string select = "SELECT SUM(ProductPrice) FROM CartItems";
+
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(select, conn);
+
+            string result = cmd.ExecuteScalar().ToString();
+
+            conn.Close();
+            return result;
+
         }
 
         protected void Rep_ItemCommand(object source, RepeaterCommandEventArgs e)
