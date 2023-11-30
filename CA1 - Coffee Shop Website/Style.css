@@ -399,3 +399,83 @@ contact finished */
     background-color: #fff;
     color: var(--black);
 }
+
+ @media (max-width: 1058px){
+     header{
+         padding: 16px 60px;
+     }
+     section{
+         padding: 50px 60px;
+     }
+     h1{
+         font-size: 2.4rem;
+     }
+ }
+
+@media (max-width: 990px) {
+    header {
+        padding: 16px 4%;
+    }
+
+    section {
+        padding: 50px 4%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 12px 4%;
+    }
+    #menu-icon{
+        display:initial;
+    }
+    .navbar{
+        position: absolute;
+        top: -570px;
+        left:0;
+        right:0;
+        display:flex;
+        flex-direction: column;
+        background: var(--main-color);
+        row-gap: 1.4rem;
+        padding: 20px;
+        transition: 0.3s;
+        text-align: center;
+    }
+    .navbar a {
+        color:var(--black);
+    }
+    .navbar a:hover{
+        color:var(--bg);
+    }
+    .navbar.active{
+        top:100%
+    }
+}
+
+@media (max-width: 360px){
+    header{
+        padding: 11px 4%;
+    }
+    h1{
+        font-size: 1.4rem;
+    }
+    .about-us-content h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .about-us-content p{
+        font-size:0.8rem;
+        font-weight:300;
+    }
+    .heading{
+        font-size: 1.2rem;
+    }
+    .review-heading{
+        font-size: 1.2rem;
+    }
+}
