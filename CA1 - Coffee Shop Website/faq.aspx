@@ -96,6 +96,15 @@
                 <div class="faq-answer">Yes, we offer a selection of gluten-free pastries and snacks to accommodate different dietary preferences.</div>
               </li>
 
+              <li class="faq-item">
+                <div class="faq-question">Where can I find some links to other websites that contain useful information?</div>
+                <div class="faq-answer">You can find valuable information on the following websites: 
+                    <br /> https://www.w3schools.com/asp/ 
+                    <br /> https://learn.microsoft.com/en-us/sql/?view=sql-server-ver16
+                    <br /> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide 
+                    <br /> https://www.techtarget.com/searchsoftwarequality/definition/Web-application-Web-app </div>
+              </li>
+
             </ul>
           </div>
     </section>
