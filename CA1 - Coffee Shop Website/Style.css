@@ -400,17 +400,17 @@ contact finished */
     color: var(--black);
 }
 
- @media (max-width: 1058px){
-     header{
-         padding: 16px 60px;
-     }
-     section{
-         padding: 50px 60px;
-     }
-     h1{
-         font-size: 2.4rem;
-     }
- }
+@media (max-width: 1058px){
+    header{
+        padding: 16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+}
 
 @media (max-width: 990px) {
     header {
